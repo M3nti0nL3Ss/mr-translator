@@ -43,8 +43,8 @@ def main(input_directory, backup_directory, target_language):
 
 
 if __name__ == "__main__":
-    input_directory = "C:\\KPLR\\Aout-2023\\k8s-workshops\\solutions"
-    backup_directory = "C:\\KPLR\\Aout-2023\\k8s-workshops-en"
+    input_directory = "k8s-workshops\\solutions"
+    backup_directory = "k8s-workshops-en"
     target_language = 'fr'  # Change this to your desired target language code
 
     main(input_directory, backup_directory, target_language)
